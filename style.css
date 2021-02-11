@@ -20,8 +20,12 @@ html{
     margin: 0 auto;
     position: relative;
     padding-top: 20px;
+}
+
+.header{
     display: flex;
     justify-content: space-between;
+
 }
 
 .logo{
@@ -66,7 +70,8 @@ html{
 .info__btn:hover{
     text-decoration: underline;
     background: inherit;
-    background-color: #E39128;
+    background: #CD6326;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .info a{
@@ -93,3 +98,43 @@ html{
     color: #F7F7F7;
     margin-left: 61px;
 }
+
+.survival{
+    width: 275px;
+    margin-top: 120px;
+}
+
+.survival h1{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.survival p{
+    margin-top: 51px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.btn{
+    margin-top: 65px;
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #E39128;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
