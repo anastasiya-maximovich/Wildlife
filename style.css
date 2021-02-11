@@ -138,3 +138,12 @@ html{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.main{
+    width: 1440px;
+    background: #ccc;
+}
+
+.main .container{
+    height: 1370px;
+    padding: 120px 0 240px;
+}
