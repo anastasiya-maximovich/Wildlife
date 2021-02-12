@@ -192,6 +192,11 @@ h3{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
+}
+
+.main_card:hover{
+    box-shadow: 0 0 9px rgba(227, 145, 40, 1);;
 }
 
 .main_card.one{
