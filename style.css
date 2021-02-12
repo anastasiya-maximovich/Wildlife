@@ -151,6 +151,11 @@ html{
 .main__pointer{
     width: 30px;
     height: 70;
+    cursor: pointer;
+}
+
+.main__pointer:hover{
+    box-shadow: 0 0 9px rgba(227, 145, 40, 1);
 }
 
 h2{
@@ -196,7 +201,7 @@ h3{
 }
 
 .main_card:hover{
-    box-shadow: 0 0 9px rgba(227, 145, 40, 1);;
+    box-shadow: 0 0 9px rgba(227, 145, 40, 1);
 }
 
 .main_card.one{
@@ -249,4 +254,73 @@ input{
 
 .btn.second{
     width: 120px;
+}
+
+.footer{
+    width: 1440px;
+    background: url('./img/bg/bg_footer.jpg') center center/cover no-repeat;
+}
+
+.footer .container{
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about a{
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+    margin-left: 86px;
+    cursor: pointer;
+}
+
+.about a:first-child{
+    margin-left: 0;
+}
+
+.about a:hover{
+    color:#CD6326;
+    text-decoration: underline;
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #F7F7F7;
+    border-radius: 20px;
+    margin-right: 27px;
+}
+
+.media:first-child img{
+    display: block;
+}
+.media:first-child{
+    margin-right: 0;
+}
+
+.media__card img{
+    display: block;
+    margin: 0 auto;
+}
+
+.media__card:hover{
+    background: rgb(227, 145, 40);;
 }
