@@ -147,3 +147,101 @@ html{
     height: 1370px;
     padding: 120px 0 240px;
 }
+
+.main__pointer{
+    width: 30px;
+    height: 70;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    margin-top: 239px;
+}
+
+.main_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+
+}
+.main_card{
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main_card.one{
+    background: url('./img/main/main_1.jpg');
+}
+
+.main_card.tow{
+    background: url('./img/main/main_2.jpg');
+}
+
+.main_card.tre{
+    background: url('./img/main/main_3.jpg');
+}
+
+.main_card h4{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    margin-bottom: 10px;
+}
+
+.main_card p{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.main__form{
+    text-align: center;
+    margin-top: 59px;
+}
+
+input{
+    width: 540px;
+    height: 60px;
+    border: 1px solid #666666;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    color: #666666;
+    background: #CCC;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn.second{
+    width: 120px;
+}
