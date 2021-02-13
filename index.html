@@ -10,33 +10,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class='hero'>
+
+    <section class='header'>
         <div class="container">
-            <div class="header">
+            <div class="info">
                 <div class="logo">
-                    <img class='logo_img' src='./icons/logo.png' alt='logo' />
+                    <img class='logo_img' src='./icons/logo.svg' alt='logo' />
                     <div class='logo_text'>wildlife</div>
-                </div>
-                <div class="info">
-                    <a href='#'class="info__blog">Blog</a>
-                    <a href='#' class="info__blog">Contacts</a>
-                    <a href="#">
-                        <img src="./icons/magnifier.png" alt="magnifier" class="info__img">
-                    </a>
-                    <button class="info__btn">Sign in</button>
-                </div> 
+               </div>
+                   <nuv>
+                       <ul class="menu">
+                           <li>
+                               <a href='#latest'class="info__blog">Blog</a>
+                           </li>
+                           <li>
+                               <a href='#media' class="info__blog">Contacts</a>
+                           </li>
+                           <div class="info__blog">
+                               <img src="./icons/magnifier.png" alt="magnifier" class="info__img">
+                           </div>
+                               <button class="info__btn">Sign in</button>
+                       </ul>
+                   </nuv>
             </div>
+
             <div class="survival">
                 <h1>Survival</h1>
                 <p>What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
                 <button class='btn'>Donate</button>
             </div>
         </div>
+        </div>
     </section>
 
     <section class="main">
         <div class='container'>
-            <h2>Latest articles</h2>
+            <h2 id="latest">Latest articles</h2>
             <h4>Breaking news from the wild</h4>
             <div class="main_img">
                 <div class="main__pointer">
@@ -59,39 +68,47 @@
                 </div>
             </div>
             <h3>Get notified about new amazing articles</h3>
-            <div class="main__form">
-                <input type="email" value="Email"><button class='btn second'>Send</button>
-            </div>
+
+            <form class="main__form">
+                <input type="text" placeholder="Email" class="formarea"><input type="submit" value="Send" class="btn second">
+            </form>
         </div>
     </section>
     
   <section class="footer">
         <div class="container">
             <div class="logo">
-                <img class='logo_img' src='./icons/logo.png' alt='logo' />
+                <img class='logo_img' src='./icons/logo.svg' alt='logo' />
                 <div class='logo_text'>wildlife</div>
             </div>
-            <div class="about">
-                <a href='#'>Articles</a>
-                <a href='#'>About us</a>
-                <a href='#'>Learn more</a>
-            </div>
-            <div class="media">
-                <div class="media__card">
-                    <a href="#"><img src="./icons/facebook.png" alt="facebook"></a>
-                </div>
-                <div class="media__card">
-                    <a href="#"><img src="./icons/inst.png" alt="inst"></a>
-                </div>
-                <div class="media__card">
-                    <a href="#"><img src="./icons/pint.png" alt="pint"></a>
-                </div>
-                <div class="media__card">
-                    <a href="#"><img src="./icons/telegram.png" alt="telegram"></a>
-                </div>
-            </div>
+            <ul class="footer__nav">
+                <li class="about">
+                    <a href='#latest'>Articles</a>
+                </li>
+                <li class="about">
+                    <a href='#'>About us</a>
+                </li>
+                <li class="about">
+                    <a href='#'>Learn more</a>
+                </li>
+                <li class="media" id="media">
+                    <div class="media__card">
+                        <a href="#"><img src="./icons/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <div class="media__card">
+                        <a href="#"><img src="./icons/instagram.svg" alt="inst"></a>
+                    </div>
+                    <div class="media__card">
+                        <a href="#"><img src="./icons/pint.svg" alt="pint"></a>
+                    </div>
+                    <div class="media__card">
+                        <a href="#"><img src="./icons/telegram.svg" alt="telegram"></a>
+                    </div>
+                </li>
+            </ul>
         </div>
   </section>
+
     <script src='script.js'></script>
 </body>
 </html>

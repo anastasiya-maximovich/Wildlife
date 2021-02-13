@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,10 +7,9 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-.hero{
+.header{
     width: 1440px;
     background: url('./img/bg/bg_hero.png') center center/cover no-repeat;
-
 }
 
 .container{
@@ -22,7 +20,7 @@ html{
     padding-top: 20px;
 }
 
-.header{
+.menu{
     display: flex;
     justify-content: space-between;
 
@@ -49,7 +47,7 @@ html{
 
 .info{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -74,10 +72,16 @@ html{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.info__btn:active{
+    background: #8F5613;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .info a{
     display: block;
     margin-left: 64px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .info a:hover{
@@ -90,6 +94,7 @@ html{
     margin-top: 17px;
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 .info__blog{
@@ -135,6 +140,11 @@ html{
 
 .btn:hover{
     background: #E39128;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn:active{
+    background: #8F5613;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -239,7 +249,7 @@ h3{
     margin-top: 59px;
 }
 
-input{
+.formarea{
     width: 540px;
     height: 60px;
     border: 1px solid #666666;
@@ -254,6 +264,7 @@ input{
 
 .btn.second{
     width: 120px;
+    margin: 0;
 }
 
 .footer{
@@ -268,10 +279,17 @@ input{
     align-items: center;
 }
 
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .about{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 86px;
 }
 
 .about a{
@@ -279,12 +297,11 @@ input{
     line-height: 60px;
     color: #F7F7F7;
     text-decoration: none;
-    margin-left: 86px;
     cursor: pointer;
 }
 
-.about a:first-child{
-    margin-left: 0;
+.about:last-child{
+    margin-right: 0;
 }
 
 .about a:hover{
