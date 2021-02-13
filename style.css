@@ -17,7 +17,7 @@ html{
     height: 800px;
     margin: 0 auto;
     position: relative;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .menu{
@@ -42,7 +42,7 @@ html{
     line-height: 60px;
     text-transform: uppercase;
     color: #F7F7F7;
-    margin-left: 16px;
+    margin-left: 15px;
 }
 
 .info{
@@ -125,7 +125,7 @@ html{
 }
 
 .btn{
-    margin-top: 65px;
+    margin-top: 47px;
     width: 160px;
     height: 60px;
     background: #CD6326;
@@ -155,7 +155,7 @@ html{
 
 .main .container{
     height: 1370px;
-    padding: 120px 0 240px;
+    padding: 124px 0 240px;
 }
 
 .main__pointer{
@@ -182,6 +182,7 @@ h4{
     line-height: 36px;
     text-align: center;
     color: #666666;
+    margin-top: 14px;
 }
 
 h3{
@@ -273,7 +274,8 @@ h3{
 }
 
 .footer .container{
-    height: 360px;
+    padding-top: 8px;
+    height: 358px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -311,7 +313,7 @@ h3{
 
 .media{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -323,7 +325,7 @@ h3{
     height: 40px;
     background: #F7F7F7;
     border-radius: 20px;
-    margin-right: 27px;
+    margin-left: 27px;
 }
 
 .media:first-child img{
