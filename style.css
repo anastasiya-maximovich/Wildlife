@@ -343,3 +343,7 @@ h3{
 .media__card:hover{
     background: rgb(227, 145, 40);;
 }
+
+.media:list-child{
+    width: 100%;
+}
