@@ -20,6 +20,10 @@ html{
     padding-top: 25px;
 }
 
+.title{
+    display: none;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -109,7 +113,7 @@ html{
     margin-top: 120px;
 }
 
-.survival h1{
+.survival__title{
     font-size: 48px;
     line-height: 72px;
     font-weight: 400;
@@ -342,8 +346,4 @@ h3{
 
 .media__card:hover{
     background: rgb(227, 145, 40);;
-}
-
-.media:list-child{
-    width: 100%;
 }
